@@ -1,0 +1,15 @@
+{
+  "name": "Header Facebook Fixed",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Fixed header Facebook at the top",
+  "icons" : {
+    "16" : "icon128.png",
+    "48" : "icon128.png",
+    "128" : "icon128.png"
+  },
+  "content_scripts": [{
+    "matches": [ "*://facebook.com/*" ],
+    "js": [ "header-facebook-fixed.js" ]
+  }]
+}
