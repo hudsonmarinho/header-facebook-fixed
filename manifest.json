@@ -8,6 +8,10 @@
     "48" : "icon128.png",
     "128" : "icon128.png"
   },
+  "permissions": [
+    "http://*.facebook.com/",
+    "*://*.facebook.com/",
+  ],
   "content_scripts": [{
     "matches": [ "*://facebook.com/*" ],
     "js": [ "header-facebook-fixed.js" ]
