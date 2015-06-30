@@ -18,8 +18,7 @@
     "*://*.facebook.com/",
   ],
   "content_scripts": [{
-    "matches": [ "*://facebook.com/*" ],
-    "js": [ "header-facebook-fixed.js" ]
+    "matches": [ "*://www.facebook.com/*" ],
     "js": [ "jquery-1.11.3.min.js", "header-facebook-fixed.js" ]
   }]
 }
