@@ -4,9 +4,10 @@
   "manifest_version": 2,
   "description": "Fixed header Facebook at the top",
   "icons" : {
-    "16" : "icon128.png",
-    "48" : "icon128.png",
-    "128" : "icon128.png"
+    "16" : "icon.png",
+    "48" : "icon.png",
+    "128" : "icon.png"
+  },
   },
   "permissions": [
     "http://*.facebook.com/",
